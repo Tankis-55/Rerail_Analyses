@@ -6,33 +6,32 @@ This project analyzes customer purchasing behavior and predicts seasonal demand 
 ##  Key Features  
 -  **Data Cleaning & Preprocessing**  
 -  **Sales Trend Analysis & Visualization**  
--  **Machine Learning-based Demand Forecasting (SARIMA, ARIMA, Prophet)**  
+-  **Machine Learning-based Demand Forecasting (SARIMA, ARIMA, statsmodels)**  
 -  **Customer Segmentation & Behavior Analysis**  
 -  **Product Recommendation System**  
 
 ##  Dataset  
-We used the **Online Retail Dataset** from [Kaggle](https://www.kaggle.com/datasets) and real-world sales data from Amazon/eBay.  
+I used the **Online Retail Dataset** from [Kaggle](https://www.kaggle.com/datasets) and real-world sales data from Amazon/eBay.  
 
 ##  Tech Stack  
 - **Python** (pandas, numpy, matplotlib, seaborn)  
-- **Machine Learning** (scikit-learn, XGBoost)  
-- **Time Series Forecasting** (statsmodels, Prophet, ARIMA, SARIMA)  
-- **Recommendation System** (Collaborative Filtering, Content-Based Filtering)  
-- **SQL** (MySQL, PostgreSQL for data storage)  
-- **Visualization** (Tableau, Power BI)  
+- **Machine Learning** (scikit-learn)  
+- **Time Series Forecasting** (ARIMA, SARIMA, statsmodels)  
+- **Recommendation System** (Collaborative Filtering, Content-Based Filtering)
+- **Visualisation** (seaborn, matplotlib) 
 
 ## How to Run the Project  
-### Install Dependencies  
-pip install -r requirements.txt
-
 ### Run Data Preprocessing
 python data_cleaning.py
 
-###  Run Sales Forecasting Model
-python sales_forecast.py
+### Analyze Customer Data
+python customer_analysis.py
 
-### Run Recommendation System
-python recommendation.py
+###   Identify Sales Trends & Forecast Demand
+python sales_trends.py
+
+### Generate Product Recommendations
+python recommendation_system.py
 
 ### Future Improvements
 
@@ -44,4 +43,4 @@ Deploy recommendation system as an API
 :) If you find this project useful, feel free to give it a star!
 ---
 
-This README provides a **clear, structured overview** of the project. Let me know if you want any modifications! 
+This README provides a clear, structured overview of the project. Let me know if you want any modifications! 
