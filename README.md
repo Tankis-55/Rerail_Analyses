@@ -1,19 +1,19 @@
-# 🛒 Retail Sales Analysis & Product Recommendation  
+#  Retail Sales Analysis & Product Recommendation  
 
-## 📌 Project Overview  
+##  Project Overview  
 This project analyzes customer purchasing behavior and predicts seasonal demand using machine learning techniques. Additionally, it implements a recommendation system to enhance customer experience.  
 
-## 📊 Key Features  
-- 🧹 **Data Cleaning & Preprocessing**  
-- 📈 **Sales Trend Analysis & Visualization**  
-- 🤖 **Machine Learning-based Demand Forecasting (SARIMA, ARIMA, Prophet)**  
-- 🎯 **Customer Segmentation & Behavior Analysis**  
-- 🔍 **Product Recommendation System**  
+##  Key Features  
+-  **Data Cleaning & Preprocessing**  
+-  **Sales Trend Analysis & Visualization**  
+-  **Machine Learning-based Demand Forecasting (SARIMA, ARIMA, Prophet)**  
+-  **Customer Segmentation & Behavior Analysis**  
+-  **Product Recommendation System**  
 
-## 📂 Dataset  
+##  Dataset  
 We used the **Online Retail Dataset** from [Kaggle](https://www.kaggle.com/datasets) and real-world sales data from Amazon/eBay.  
 
-## 🛠️ Tech Stack  
+##  Tech Stack  
 - **Python** (pandas, numpy, matplotlib, seaborn)  
 - **Machine Learning** (scikit-learn, XGBoost)  
 - **Time Series Forecasting** (statsmodels, Prophet, ARIMA, SARIMA)  
